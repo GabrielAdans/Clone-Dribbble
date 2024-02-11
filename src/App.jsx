@@ -1,16 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import Header from "./Header";
+import Body from "./Body";
+import Footer from "./Footer";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div>
-      <header>Header</header>
-      <main>Conteúdo principal</main>
-      <footer>Descrições finais</footer>
+    <div className="p-10 bg-zinc-200">
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
